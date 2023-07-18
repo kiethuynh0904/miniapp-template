@@ -1,0 +1,8 @@
+{
+  "name": "miniapp-template",
+  "version": "0.0.5",
+  "description": "React Native Template",
+  "repository": "git@github.com:kiethuynh0904/miniapp-template.git",
+  "author": "Diet Huynh <kiethuynh0904@gmail.com>",
+  "license": "MIT"
+}
