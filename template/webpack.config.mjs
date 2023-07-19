@@ -254,7 +254,7 @@ export default env => {
 
 
       new Repack.plugins.ModuleFederationPlugin({
-        name: 'miniapp',
+        name: 'ProjectName',
         exposes: {
           './App': './App.tsx',
         },
