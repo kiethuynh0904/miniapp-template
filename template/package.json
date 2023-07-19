@@ -6,7 +6,8 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native webpack-start --port 9001",
-    "serve-remote-assets": "yarn http-server -p 9999 build/output/ios/remote/remote-assets"
+    "serve-remote-assets": "yarn http-server -p 9999 build/output/ios/remote/remote-assets",
+    "build:ios":"react-native webpack-bundle --entry-file node_modules/app_engine_micro_fe/index.js --bundle-output ios/main.jsbundle --platform ios"
   },
   "dependencies": {
     "app_engine_micro_fe": "../app_engine_micro_fe-0.0.1.tgz",
