@@ -12,16 +12,16 @@
   "dependencies": {
     "app_engine_micro_fe": "../app_engine_micro_fe-0.0.1.tgz",
     "react": "18.2.0",
-    "react-native": "0.71.8",
-    "react-native-gesture-handler": "2.8.0",
+    "react-native": "0.71.8"
+  },
+  "devDependencies": {
+    "react-native-gesture-handler": "^2.12.1",
     "react-native-safe-area-context": "4.4.1",
     "react-native-screens": "3.21.1",
     "@react-navigation/bottom-tabs": "6.5.2",
     "@react-navigation/native": "6.1.1",
     "@react-navigation/stack": "6.3.10",
-    "react-native-svg": "12.1.1"
-  },
-  "devDependencies": {
+    "react-native-svg": "12.1.1",
     "@babel/core": "^7.20.0",
     "@babel/preset-env": "^7.20.0",
     "@babel/runtime": "^7.20.0",
